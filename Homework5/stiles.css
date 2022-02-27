@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    }
+.container {
+    width: 1140px;
+    margin: 0 auto;
+    
+    }
+.menu{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.headline_1{
+    width: 510px;
+}
+.headline{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.headline_3{
+   display:flex;
+   justify-content: center;
+}
+.paragraph_1{
+    width:425px;
+}
+.articles_container{
+display: flex;
+justify-content:space-between;
+}
+.article_1{
+    width: 359px;
+}
+.question{
+    width: 495px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.headline_5{
+    width: 340px;
+}
+.list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.content{
+    display: flex;
+    justify-content: space-between ;
+    
+}
+.map{
+    min-width: max-content;
+}
