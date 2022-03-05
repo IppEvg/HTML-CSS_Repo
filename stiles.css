@@ -16,10 +16,11 @@ body {
     background-image: url(Pictures/illustration.png);
     background-repeat: no-repeat;
     background-position: right 158px;
+    min-height:768px;
 }
 .header {
     background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
-    height:768px;
+    min-height:768px;
 }
 .menu{
     display: flex;
@@ -61,6 +62,7 @@ body {
 .what-we-do {
     padding-top: 64px;
 }
+
 .headline_3{
     display:flex;
     justify-content: center;
@@ -108,9 +110,6 @@ body {
 }
 .paragraph_1{
     width:425px;
-}
-.results {
-  
 }
 .paragraph_results{
     font-size: 16px;
@@ -191,7 +190,7 @@ body {
     margin-bottom: 10px;
 }
 .headline_5{
-    width: 340px;
+    max-width: 340px;
     font-size: 36px;
     line-height: 46px;
     letter-spacing: 0.05em;
@@ -288,4 +287,159 @@ body {
     color: #FFFFFF;
     opacity: 0.4;   
 }
+@media (max-width:1024px){
+.container {
+    margin-left: 32px;
+    margin-right: 32px  ;
+}
+menu{
+    margin-top: 28px;
+}
+.container{
+    background-position: right 340px;
+    background-size: 44%;
+}
+.articles_container{
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 95px;
+}
+.article_1{
+    margin-bottom: 32px;
+}
+.border_question{
+    justify-content: space-around;
+}
+.lets_talk{
+    padding: 2px 30px;
+}
+.question{
+    width: 50%;
+        margin-top: 47px;
+    margin-bottom: 64px;
+}
+.headline_5{
+    text-align: left;
+    max-width: none;
+}
+}
 
+
+@media(max-width:667px){
+.header{
+min-height: 376px;
+}
+.container{
+margin-left: 16px;
+margin-right: 16px;
+}
+.menu{
+    margin-top: 16px;
+}
+.main_headline {
+    margin-top: 28px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.headline_1{
+    width: 100%;
+    margin-bottom: 12px;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: 0.04em;
+}
+.paragraph{
+    width: 100%;
+    text-align: center;
+}
+.header_container{
+    background-image: none;
+    padding-bottom: 41px;
+    min-height: 376px;
+}
+.top_button{
+    margin-top: 32px;
+    font-size: 12px;
+    letter-spacing: normal;
+    padding: 0px 10px;
+    box-sizing: border-box;
+}
+.what-we-do{
+    padding-top: 48px;
+}
+.headline_3{
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: normal;
+}
+.articles_container{
+    padding-top: 0;
+    padding-bottom: 64px;
+}
+.article_1{
+    margin-top: 32px;
+    width: 100%;
+}
+.paragraph_results{
+    width: 100%;
+}
+.text-box-1{
+    font-size: 16px;
+    line-height: 19px;
+    top: 16px;
+    right: 16px;
+}
+.text-box-2{
+    font-size: 16px;
+    line-height: 19px;
+    top: 16px;
+    left: 16px;
+}
+.picture-box-2{
+    margin-top: 16px;
+    flex-direction: column;
+    margin-top: 16px;
+}
+
+.box-left{
+    margin-right: 0;
+    margin-bottom: 16px;
+}
+.footer{
+    margin-top: 64px;
+}
+.border_question{
+    flex-direction: column;
+    align-items: center;
+}
+.question{
+margin-top:18px;
+margin-bottom: 40px;
+width: 100%;
+}
+.lets_talk{
+    margin-bottom: 41px;
+}
+.headline_5{
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: normal;
+}
+.paragraph{
+    text-align: center;
+}
+.list{
+    flex-direction: column;
+}
+.down-li{
+    margin-bottom: 25px;
+    line-height: 19px;
+}
+.copyrights{
+    padding-bottom: 32px;
+}
+}
