@@ -294,18 +294,14 @@ body {
     color: #FFFFFF;
     opacity: 0.4;   
 }
+
 /* для страницы контактов*/
-.header_contacts{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-}
+
 .headline{
     margin-top: 47px;
     background-image: url(Pictures/Background_header.png);
     background-repeat: no-repeat;
-    background-size:auto;
+    background-size:cover;
     min-height: 250px;
     height: 100%;
 }
@@ -398,13 +394,18 @@ body {
     letter-spacing: 0.04em;
     color: #1F3F68;
     text-transform: uppercase;
+    margin-bottom: 48px;
 }
 .inputs{
     width: 100%;
     height: 72px;
+    margin-top: 8px;
+    margin-bottom: 32px;
 }
+
 .message{
     height: 144px;
+    margin-bottom: 72px;
 }
 .submits_contact{
     font-weight: 500;
@@ -418,6 +419,7 @@ body {
     border-radius: 10px;
     padding:23px 175px ;
     max-width: fit-content;
+    text-transform: uppercase;
 }
 .map {
     margin-top: 96px;
@@ -427,14 +429,12 @@ body {
 @media (max-width:1024px){
 .container {
     margin-left: 32px;
-    margin-right: 32px  ;
+    margin-right: 32px ;
+    background-position: right 340px;
+    background-size: 44%;
 }
 menu{
     margin-top: 28px;
-}
-.container{
-    background-position: right 340px;
-    background-size: 44%;
 }
 .articles_container{
     flex-direction: column;
@@ -444,8 +444,12 @@ menu{
 .article_1{
     margin-bottom: 32px;
 }
+.column_footer{
+    max-width: 520px;
+    margin:0 auto;
+}
 .border_question{
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .lets_talk{
     padding: 2px 30px;
@@ -459,7 +463,40 @@ menu{
     text-align: left;
     max-width: none;
 }
+.list{
+    flex-direction: column;
+
 }
+ol.list{
+     margin: 64px auto;
+}
+.down-li{
+    margin-bottom: 25px;
+}
+.down-li:last-child{
+    margin-bottom: 0px;
+}
+
+/* Для страницы контактов */
+
+.content {
+    flex-direction: column;
+    align-items: center;
+}
+.map{
+    margin-top: 64px;
+    min-width: 375px ;
+
+}
+.container_none{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.footer{
+    margin-top: 64px;
+}
+}
+
 
 
 @media(max-width:667px){
@@ -578,5 +615,36 @@ width: 100%;
 }
 .copyrights{
     padding-bottom: 32px;
+}
+
+/* Для страницы контактов */
+
+.form{
+    width: 342px;
+    height: fit-content;
+    margin-top: 32px;
+    padding: 36px;
+    box-sizing: border-box;
+}
+.headline_form{
+    font-size: 16px;
+    margin-bottom: 31px;
+}
+.inputs{
+    height: 46px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+.message{
+    margin-bottom: 46px;
+    height: 92px;
+}
+.submits_contact{
+    padding: 10px 109px;
+}
+.container_none{
+margin-left: 0px;
+margin-right: 0px;
 }
 }
