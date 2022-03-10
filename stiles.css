@@ -330,6 +330,9 @@ body {
     align-items: center;
     margin-top: 57px;
 }
+.picture_info{
+    width: 250px;
+}
 .information{
     display: flex;
     flex-direction: column;
