@@ -277,7 +277,7 @@ body {
     flex-grow: 1;
     flex-basis: 33.33333%;
     margin-left: 1em;
-    padding-left: 25px;
+    padding: 0 25px;
     font-size: 16px;
     line-height: 26px;
     letter-spacing: 0.05em;
@@ -530,11 +530,9 @@ margin-right: 16px;
 }
 .paragraph{
     width: 100%;
-    text-align: center;
 }
 .header_container{
     background-image: none;
-    padding-bottom: 41px;
     min-height: 376px;
 }
 .top_button{
@@ -543,6 +541,7 @@ margin-right: 16px;
     letter-spacing: normal;
     padding: 0px 10px;
     box-sizing: border-box;
+    margin-bottom: 41px;
 }
 .what-we-do{
     padding-top: 48px;
@@ -605,9 +604,6 @@ width: 100%;
     line-height: 28px;
     text-align: center;
     letter-spacing: normal;
-}
-.paragraph{
-    text-align: center;
 }
 .list{
     flex-direction: column;
