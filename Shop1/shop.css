@@ -122,6 +122,7 @@ body {
 
 .woman-box {
     margin-right: 30px;
+    position: relative;
 }
 
 .woman {
@@ -130,14 +131,23 @@ body {
 
 .man-box {
     margin-right: 30px;
+    position: relative;
 }
 
 .man {
     width: 100%;
 }
 
+.kids-box {
+    position: relative;
+}
+
 .kids {
     width: 100%;
+}
+
+.accesories-box {
+    position: relative;
 }
 
 .accesories {
@@ -145,10 +155,50 @@ body {
     width: 100%;
 }
 
+.change {
+    min-height: 1398px;
+    /*нужно убрать! при дальнейшей верстке - будет равен контенту, определенному кол-ву позиций с врапом */
+    margin-top: 96px;
+    border: #F16D7F solid 3px;
+    /*для обозначения области будущих позиций вещей для продаж*/
+    width: inherit;
+}
 
+.title {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /*для всех блоков-ссылок на группы товаров*/
+    size: 16px;
+    line-height: 19.2px;
+    color: white;
+}
+
+.rose_words {
+    size: 24px;
+    line-height: 28.8px;
+    /*для всех блоков-ссылок на группы товаров*/
+    color: #F16D7F;
+}
 
 
 .footer {
     background-color: #222224;
     height: 868px;
+    position: relative;
+    margin-top: 95px;
+}
+
+.middle-footer {
+    background-image: url(Pictures/subscribe.jpg);
+    position: absolute;
+    top: 341px;
+    width: 100%;
+    height: 448px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(244, 244, 244, 0.7);
+}
 }
